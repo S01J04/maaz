@@ -343,7 +343,7 @@
 
         mobileMenuActive: function(e) {
 
-            $('.humberger-menu').on('click', function(e) {
+            $('.hamberger-menu').on('click', function(e) {
                 e.preventDefault();
                 $('.popup-mobile-menu').addClass('menu-open');
                 imJs._html.css({
