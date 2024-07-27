@@ -46,7 +46,7 @@
     --color-secondary: #f4f5f6;
     --color-tertiary: #0d1013;
     --color-gray: #f6f6f6;
-    --color-subtitle: #f9004d;
+    --color-subtitle: #000;
     --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
     --background-color-2: #212428;
     --shadow-1:  19px 19px 34px #a6a6a6,
@@ -293,8 +293,14 @@ h6 a,
         font-size: 18px;
     }
 }
+.footer-area{
+    margin-top: 100px;
+}
 
 @media only screen and (max-width: 767px) {
+    .footer-area{
+        margin-top: 300px;
+    }
     h1,
     .h1 {
         font-size: 34px;
@@ -565,7 +571,7 @@ ol ul {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .rn-section-gap {
-        padding: 80px 0;
+        padding: 100px 0;
     }
 }
 
@@ -587,7 +593,7 @@ ol ul {
 
 @media only screen and (max-width: 767px) {
     .rn-section-gapBottom {
-        padding-bottom: 80px;
+        padding-bottom: 80px ;
     }
 }
 
@@ -12357,17 +12363,7 @@ figcaption {
     position: relative;
 }
 
-.section-separator::after {
-    position: absolute;
-    max-width: 1270px;
-    height: 1px;
-    background: #121415;
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
+
 
 @media only screen and (max-width: 479px) {
     .section-flex {
@@ -13890,7 +13886,7 @@ figcaption {
     transition: 0.5s all ease-in-out;
     position: relative;
     border-radius: 10px;
-    background: #dedede;
+    background: #ffffff;
     box-shadow: var(--shadow-1);
     position: relative;
     z-index: 1;
@@ -14002,17 +13998,17 @@ figcaption {
     border-radius: 10px;
     top: 0;
     left: 0;
-    background: #c5c4c4;
+    background: #ece9e9;
     opacity: 0;
     z-index: -1;
 }
 
 .rn-service:hover .inner .content .title {
-    color: var(--color-white);
+    color: #000000;
 }
 
 .rn-service:hover .inner .content .description {
-    color: var(--color-white);
+    color: #000000;
 }
 
 .rn-service:hover .inner .content .read-more-button {
@@ -16784,11 +16780,12 @@ span.sr-only {
     height: 61px;
     line-height: 57px;
     margin-right: 15px;
-    box-shadow: var(--shadow-1);
+    /* box-shadow: var(--shadow-1); */
     border-radius: 6px;
     transition: var(--transition);
     display: inline-block;
     text-align: center;
+    border: 1px solid black;
 }
 
 .contact-about-area .social-area .social-icone a::before {
@@ -16800,7 +16797,7 @@ span.sr-only {
     border-radius: 6px;
     top: 0;
     left: 0;
-    background: linear-gradient(to right bottom, #212428, #16181c);
+    /* background: linear-gradient(to right bottom, #212428, #16181c); */
     opacity: 0;
     z-index: -1;
 }
