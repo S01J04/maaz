@@ -10586,7 +10586,7 @@ xclip
 }
 
 body.template-color-1 {
-    background-color: #e0e0e0;
+    background-color: #ffffff;
 }
 
 .nav-pills .nav-link.active,
@@ -10917,7 +10917,7 @@ body.template-color-1 {
 
 @media only screen and (max-width: 767px) {
     .sticky .header-wrapper {
-        height: 70px;
+        height: 81px;
         padding: 0;
     }
 }
@@ -13886,7 +13886,7 @@ figcaption {
     transition: 0.5s all ease-in-out;
     position: relative;
     border-radius: 10px;
-    background: #ffffff;
+    background: #DEDEDE;
     box-shadow: var(--shadow-1);
     position: relative;
     z-index: 1;
@@ -13998,7 +13998,7 @@ figcaption {
     border-radius: 10px;
     top: 0;
     left: 0;
-    background: #ece9e9;
+    background: #dad8d8;
     opacity: 0;
     z-index: -1;
 }
@@ -15004,8 +15004,8 @@ div#featured-project-carousel {
     overflow: visible;
     position: relative;
     border-radius: 14px;
-    background: #f02981;
-    background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+    background: #ffffff;
+    background: #3EB75E;
 }
 
 .progress-charts .progress .progress-bar span.percent-label {
