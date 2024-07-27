@@ -11119,7 +11119,7 @@ body.template-color-1 {
 }
 
 .mainmenu-nav .primary-menu li a {
-    color: #000;
+    color: #bbb7b7;
     position: relative;
     transition: var(--transition);
     font-size: 13px;
@@ -11135,7 +11135,7 @@ body.template-color-1 {
 
 .mainmenu-nav .primary-menu li.current a {
     opacity: 1 !important;
-    color: #06c736;
+    color: #3EB75E;
 }
 
 .mainmenu-nav .primary-menu:hover li a {
@@ -11919,6 +11919,7 @@ button.rn-btn::before {
 a.rn-btn:hover,
 button.rn-btn:hover {
     transform: translateY(-5px);
+    color:#3EB75E;
 }
 
 a.rn-btn:hover::before,
@@ -12388,7 +12389,7 @@ figcaption {
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
-    color: #06c736;
+    color: #3EB75E;
     margin-top: 15px;
     margin-bottom: 0;
 }
@@ -12569,7 +12570,7 @@ figcaption {
 }
 
 .slide .content .inner .title span {
-    color: #06c736;
+    color: #3EB75E;
 }
 
 .slide .content .inner .title .header-caption span {
@@ -14505,11 +14506,12 @@ div#featured-project-carousel {
 
 .rn-nav-list .nav-item .nav-link:hover,
 .rn-nav-list .nav-item .nav-link.active {
-    color: #06c736;
+    color: #3EB75E
+    ;
     background-color: transparent;
     border-color: transparent;
     border: 0 none;
-    background: #8e968d;
+    background: #c1c2c1;
  
 }
 
@@ -14524,7 +14526,7 @@ div#featured-project-carousel {
     font-size: 36px;
     font-weight: 700;
     line-height: 62px;
-    color: #06c736;
+    color: #3EB75E;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -14708,7 +14710,7 @@ div#featured-project-carousel {
 }
 
 .personal-experience-inner .experience-list .resume-single-list .inner .heading .date-of-time span {
-    color: #06c736;
+    color: #3EB75E;
     display: block;
     font-size: 14px;
     padding: 0 15px;
@@ -16704,7 +16706,7 @@ span.sr-only {
 .contact-about-area .title-area h4.title {
     font-size: 29px;
     line-height: 44px;
-    color: #06c736;
+    color: #3EB75E;
     margin-bottom: 9px;
 }
 
@@ -17006,7 +17008,7 @@ span.sr-only {
 }
 
 .success-msg p {
-    color: green;
+    color: #3EB75E;
     font-size: 16px;
 }
 
