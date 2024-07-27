@@ -10886,8 +10886,8 @@ body.template-color-1 {
 }
 
 .rn-header.header--fixed.sticky {
-    background-color: rgba(33, 36, 40, 0.8705882353);
-    box-shadow: var(--shadow-1);
+    background-color: rgba(33, 36, 40, 0.438);
+    /* box-shadow: var(--shadow-1); */
     position: fixed;
     backdrop-filter: blur(15px);
     top: 0;
